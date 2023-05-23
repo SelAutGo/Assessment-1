@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="71.049" tests="1" skipped="0" failures="1" errors="0">
+<testcase classname="Test Login Feature" name="Testing Login Feature" time="70.564">
+<failure type="java.lang.NullPointerException" message="Cannot invoke &quot;org.openqa.selenium.WebDriver.getTitle()&quot; because &quot;this.driver&quot; is null">
+<![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.getTitle()" because "this.driver" is null
+	at Pages.LoginPage.verifyTitle(LoginPage.java:75)
+	at stepDefinition.LoginFunctionality.i_am_in_new_tours_home_page(LoginFunctionality.java:30)
+	at ?.I am in NewTours Home Page(file:///C:/Users/Riya/eclipse-workspace-2/NewTours-Asst/src/test/java/Feature/Login.feature:6)
+]]>
+</failure>
+<system-out><![CDATA[
+Given I am in NewTours Home Page............................................failed
+When I enter username.......................................................skipped
+And password................................................................skipped
+And click on Submit.........................................................skipped
+Then I validate that I am successfully logged in............................skipped
+]]></system-out>
+</testcase>
+</testsuite>

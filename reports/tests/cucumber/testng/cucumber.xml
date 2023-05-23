@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testng-results failed="1" passed="0" skipped="0" total="1">
+    <suite duration-ms="71049" name="io.cucumber.core.plugin.TestNGFormatter">
+        <test duration-ms="71049" name="io.cucumber.core.plugin.TestNGFormatter">
+            <class name="Test Login Feature">
+                <test-method duration-ms="70488" finished-at="2023-05-23T08:51:47.361435600Z" name="Testing Login Feature" started-at="2023-05-23T08:50:36.797376100Z" status="FAIL">
+                    <exception class="java.lang.NullPointerException">
+                        <message><![CDATA[Given I am in NewTours Home Page............................................failed
+When I enter username.......................................................skipped
+And password................................................................skipped
+And click on Submit.........................................................skipped
+Then I validate that I am successfully logged in............................skipped
+]]></message>
+                        <full-stacktrace><![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.getTitle()" because "this.driver" is null
+	at Pages.LoginPage.verifyTitle(LoginPage.java:75)
+	at stepDefinition.LoginFunctionality.i_am_in_new_tours_home_page(LoginFunctionality.java:30)
+	at ✽.I am in NewTours Home Page(file:///C:/Users/Riya/eclipse-workspace-2/NewTours-Asst/src/test/java/Feature/Login.feature:6)
+]]></full-stacktrace>
+                    </exception>
+                </test-method>
+            </class>
+        </test>
+    </suite>
+</testng-results>
